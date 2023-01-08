@@ -11,18 +11,28 @@
     justify-content: right;
     text-align: right;
 }
+
+.banner-container-2{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: centre;
+    text-align: left;
+    margin-left: 10px ;
+    
+    
+    
+}
 .title-banner{
     font-size: 60px;
     font-weight: bold;
     text-align: right;
 }
 
-.description{
-    font-size: 16px;
-    padding: 10px;
-    color: rgb(62, 59, 59);
 
-}
+
+
 .btn-contact{
     padding: 15px 35px;
     background-color: orangered;
@@ -32,4 +42,45 @@
     margin-right: auto;
 
     
+}
+
+.title-banner-2{
+    font-size: 40px;
+    font-style: normal;
+    margin:10px 10px ;
+    
+}
+
+.description{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(62, 59, 59);
+}
+.description-2{
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.plans-container{
+    display: flex;
+    gap: 2px;
+
+}
+.plans-title{
+    font-weight: 900;
+    
+}
+.plans-description{
+    color: #757575;
+}
+.section-title{
+    font-weight: 700;
+    font-size:35px ;
+    text-align: center;
+    margin-bottom: auto;
+    padding-bottom: 0;
+
 }
